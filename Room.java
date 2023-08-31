@@ -21,7 +21,7 @@ public class Room {
     private String longDescription;
     private String dica;
     private HashMap<String, Room> exits;
-    public ArrayList<Item> itens;
+    private ArrayList<Item> itens;
 
     /**
      * Create a room described "description". Initially, it has
